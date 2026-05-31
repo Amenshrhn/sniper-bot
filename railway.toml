@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python btc_price_bot.py"
+restartPolicyType = "always"
+healthcheckPath = "/"
+healthcheckTimeout = 30
