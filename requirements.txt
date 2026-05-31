@@ -1,0 +1,4 @@
+ccxt>=4.5.56
+pandas>=2.3.3
+pandas-ta>=0.4.71b0
+requests>=2.34.2
